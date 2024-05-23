@@ -144,7 +144,7 @@ def main(target):
             run_crackmapexec(ip)
             run_impacket_scripts(ip)
 
-    print(f"Reconnaissance completed. Data stored in {DB}.")
+    print(f"Recon completed. Data stored in {DB}.")
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
